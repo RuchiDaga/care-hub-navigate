@@ -40,7 +40,7 @@ const SignUp = () => {
       setIsLoading(false);
       toast({
         title: "Account Created Successfully",
-        description: "Welcome to HealthCare+! Please select your user type.",
+        description: "Welcome to VitaCare! Please select your user type.",
       });
       navigate("/user-type");
     }, 1500);
@@ -60,7 +60,7 @@ const SignUp = () => {
         <div className="text-center mb-8">
           <div className="flex justify-center items-center mb-4">
             <Heart className="w-10 h-10 text-primary mr-2" fill="currentColor" />
-            <h1 className="text-2xl font-bold text-gray-900">HealthCare+</h1>
+            <h1 className="text-2xl font-bold text-gray-900">VitaCare</h1>
           </div>
           <h2 className="text-xl font-semibold text-gray-800">Create Account</h2>
           <p className="text-gray-600 mt-2">Join us for better healthcare</p>

@@ -34,7 +34,7 @@ const Splash = () => {
         </div>
         
         <h1 className={`text-4xl font-bold mb-2 transition-all duration-1000 delay-500 ${isAnimating ? 'translate-y-0 opacity-100' : 'translate-y-4 opacity-90'}`}>
-          HealthCare+
+          VitaCare
         </h1>
         
         <p className={`text-xl opacity-90 transition-all duration-1000 delay-700 ${isAnimating ? 'translate-y-0 opacity-90' : 'translate-y-4 opacity-70'}`}>

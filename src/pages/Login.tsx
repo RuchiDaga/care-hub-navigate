@@ -27,7 +27,7 @@ const Login = () => {
       setIsLoading(false);
       toast({
         title: "Login Successful",
-        description: "Welcome back to HealthCare+",
+        description: "Welcome back to VitaCare",
       });
       // Navigate to user type selection or home based on user data
       navigate("/user-type");
@@ -48,7 +48,7 @@ const Login = () => {
         <div className="text-center mb-8">
           <div className="flex justify-center items-center mb-4">
             <Heart className="w-10 h-10 text-primary mr-2" fill="currentColor" />
-            <h1 className="text-2xl font-bold text-gray-900">HealthCare+</h1>
+            <h1 className="text-2xl font-bold text-gray-900">VitaCare</h1>
           </div>
           <h2 className="text-xl font-semibold text-gray-800">Welcome Back</h2>
           <p className="text-gray-600 mt-2">Sign in to your account</p>

@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -41,10 +40,10 @@ const UserType = () => {
         <div className="text-center mb-12 pt-8">
           <div className="flex justify-center items-center mb-6">
             <Heart className="w-12 h-12 text-primary mr-2" fill="currentColor" />
-            <h1 className="text-3xl font-bold text-gray-900">HealthCare+</h1>
+            <h1 className="text-3xl font-bold text-gray-900">VitaCare</h1>
           </div>
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-            How do you want to use HealthCare+?
+            How do you want to use VitaCare?
           </h2>
           <p className="text-gray-600 max-w-md mx-auto">
             Select your role to get personalized features and experience
